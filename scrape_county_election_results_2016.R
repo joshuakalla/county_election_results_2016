@@ -27,4 +27,4 @@ results$county <- tolower(results$county) #lower-case county to match state_coun
 
 results <- merge(results, state_county_fips, by = c("abbr_state", "county")) #merge to get fips
 
-write.csv(results, "county_election_results_2016.csv")
+write.csv(results, "county_election_results_2016.csv", row.names=FALSE)
