@@ -318,7 +318,7 @@ abbr_state,county,fips
 "de","kent",10001
 "de","new castle",10003
 "de","sussex",10005
-"dc","district of columbia",11001
+"dc","washington",11001
 "fl","alachua",12001
 "fl","baker",12003
 "fl","bay",12005
@@ -643,7 +643,7 @@ abbr_state,county,fips
 "il","kendall",17093
 "il","knox",17095
 "il","lake",17097
-"il","lasalle",17099
+"il","la salle",17099
 "il","lawrence",17101
 "il","lee",17103
 "il","livingston",17105
@@ -1112,70 +1112,70 @@ abbr_state,county,fips
 "ky","whitley",21235
 "ky","wolfe",21237
 "ky","woodford",21239
-"la","acadia parish",22001
-"la","allen parish",22003
-"la","ascension parish",22005
-"la","assumption parish",22007
-"la","avoyelles parish",22009
-"la","beauregard parish",22011
-"la","bienville parish",22013
-"la","bossier parish",22015
-"la","caddo parish",22017
-"la","calcasieu parish",22019
-"la","caldwell parish",22021
-"la","cameron parish",22023
-"la","catahoula parish",22025
-"la","claiborne parish",22027
-"la","concordia parish",22029
-"la","de soto parish",22031
-"la","east baton rouge parish",22033
-"la","east carroll parish",22035
-"la","east feliciana parish",22037
-"la","evangeline parish",22039
-"la","franklin parish",22041
-"la","grant parish",22043
-"la","iberia parish",22045
-"la","iberville parish",22047
-"la","jackson parish",22049
-"la","jefferson parish",22051
-"la","jefferson davis parish",22053
-"la","lafayette parish",22055
-"la","lafourche parish",22057
-"la","la salle parish",22059
-"la","lincoln parish",22061
-"la","livingston parish",22063
-"la","madison parish",22065
-"la","morehouse parish",22067
-"la","natchitoches parish",22069
-"la","orleans parish",22071
-"la","ouachita parish",22073
-"la","plaquemines parish",22075
-"la","pointe coupee parish",22077
-"la","rapides parish",22079
-"la","red river parish",22081
-"la","richland parish",22083
-"la","sabine parish",22085
-"la","st. bernard parish",22087
-"la","st. charles parish",22089
-"la","st. helena parish",22091
-"la","st. james parish",22093
-"la","st. john the baptist parish",22095
-"la","st. landry parish",22097
-"la","st. martin parish",22099
-"la","st. mary parish",22101
-"la","st. tammany parish",22103
-"la","tangipahoa parish",22105
-"la","tensas parish",22107
-"la","terrebonne parish",22109
-"la","union parish",22111
-"la","vermilion parish",22113
-"la","vernon parish",22115
-"la","washington parish",22117
-"la","webster parish",22119
-"la","west baton rouge parish",22121
-"la","west carroll parish",22123
-"la","west feliciana parish",22125
-"la","winn parish",22127
+"la","acadia",22001
+"la","allen",22003
+"la","ascension",22005
+"la","assumption",22007
+"la","avoyelles",22009
+"la","beauregard",22011
+"la","bienville",22013
+"la","bossier",22015
+"la","caddo",22017
+"la","calcasieu",22019
+"la","caldwell",22021
+"la","cameron",22023
+"la","catahoula",22025
+"la","claiborne",22027
+"la","concordia",22029
+"la","de soto",22031
+"la","east baton rouge",22033
+"la","east carroll",22035
+"la","east feliciana",22037
+"la","evangeline",22039
+"la","franklin",22041
+"la","grant",22043
+"la","iberia",22045
+"la","iberville",22047
+"la","jackson",22049
+"la","jefferson",22051
+"la","jefferson davis",22053
+"la","lafayette",22055
+"la","lafourche",22057
+"la","la salle",22059
+"la","lincoln",22061
+"la","livingston",22063
+"la","madison",22065
+"la","morehouse",22067
+"la","natchitoches",22069
+"la","orleans",22071
+"la","ouachita",22073
+"la","plaquemines",22075
+"la","pointe coupee",22077
+"la","rapides",22079
+"la","red river",22081
+"la","richland",22083
+"la","sabine",22085
+"la","st. bernard",22087
+"la","st. charles",22089
+"la","st. helena",22091
+"la","st. james",22093
+"la","st. john the baptist",22095
+"la","st. landry",22097
+"la","st. martin",22099
+"la","st. mary",22101
+"la","st. tammany",22103
+"la","tangipahoa",22105
+"la","tensas",22107
+"la","terrebonne",22109
+"la","union",22111
+"la","vermilion",22113
+"la","vernon",22115
+"la","washington",22117
+"la","webster",22119
+"la","west baton rouge",22121
+"la","west carroll",22123
+"la","west feliciana",22125
+"la","winn",22127
 "me","androscoggin",23001
 "me","aroostook",23003
 "me","cumberland",23005
@@ -1194,7 +1194,7 @@ abbr_state,county,fips
 "me","york",23031
 "md","allegany",24001
 "md","anne arundel",24003
-"md","baltimore",24005
+"md","baltimore county",24005
 "md","calvert",24009
 "md","caroline",24011
 "md","carroll",24013
@@ -1575,9 +1575,9 @@ abbr_state,county,fips
 "mo","ripley",29181
 "mo","st. charles",29183
 "mo","st. clair",29185
-"mo","ste. genevieve",29186
+"mo","sainte genevieve",29186
 "mo","st. francois",29187
-"mo","st. louis",29189
+"mo","st. louis co.",29189
 "mo","saline",29195
 "mo","schuyler",29197
 "mo","scotland",29199
@@ -1596,7 +1596,7 @@ abbr_state,county,fips
 "mo","webster",29225
 "mo","worth",29227
 "mo","wright",29229
-"mo","st. louis city",29510
+"mo","st. louis",29510
 "mt","beaverhead",30001
 "mt","big horn",30003
 "mt","blaine",30005
@@ -2828,7 +2828,7 @@ abbr_state,county,fips
 "va","arlington",51013
 "va","augusta",51015
 "va","bath",51017
-"va","bedford",51019
+"va","bedford co.",51019
 "va","bland",51021
 "va","botetourt",51023
 "va","brunswick",51025
@@ -2847,11 +2847,11 @@ abbr_state,county,fips
 "va","dickenson",51051
 "va","dinwiddie",51053
 "va","essex",51057
-"va","fairfax",51059
+"va","fairfax co.",51059
 "va","fauquier",51061
 "va","floyd",51063
 "va","fluvanna",51065
-"va","franklin",51067
+"va","franklin co.",51067
 "va","frederick",51069
 "va","giles",51071
 "va","gloucester",51073
@@ -2894,8 +2894,8 @@ abbr_state,county,fips
 "va","prince william",51153
 "va","pulaski",51155
 "va","rappahannock",51157
-"va","richmond",51159
-"va","roanoke",51161
+"va","richmond co.",51159
+"va","roanoke co.",51161
 "va","rockbridge",51163
 "va","rockingham",51165
 "va","russell",51167
@@ -2914,45 +2914,45 @@ abbr_state,county,fips
 "va","wise",51195
 "va","wythe",51197
 "va","york",51199
-"va","alexandria city",51510
-"va","bedford city",51515
-"va","bristol city",51520
-"va","buena vista city",51530
-"va","charlottesville city",51540
-"va","chesapeake city",51550
-"va","colonial heights city",51570
-"va","covington city",51580
-"va","danville city",51590
-"va","emporia city",51595
-"va","fairfax city",51600
-"va","falls church city",51610
-"va","franklin city",51620
-"va","fredericksburg city",51630
-"va","galax city",51640
-"va","hampton city",51650
-"va","harrisonburg city",51660
-"va","hopewell city",51670
-"va","lexington city",51678
-"va","lynchburg city",51680
-"va","manassas city",51683
-"va","manassas park city",51685
-"va","martinsville city",51690
-"va","newport news city",51700
-"va","norfolk city",51710
-"va","norton city",51720
-"va","petersburg city",51730
-"va","poquoson city",51735
-"va","portsmouth city",51740
-"va","radford city",51750
-"va","richmond city",51760
-"va","roanoke city",51770
-"va","salem city",51775
-"va","staunton city",51790
-"va","suffolk city",51800
-"va","virginia beach city",51810
-"va","waynesboro city",51820
-"va","williamsburg city",51830
-"va","winchester city",51840
+"va","alexandria",51510
+"va","bedford",51515
+"va","bristol",51520
+"va","buena vista",51530
+"va","charlottesville",51540
+"va","chesapeake",51550
+"va","colonial heights",51570
+"va","covington",51580
+"va","danville",51590
+"va","emporia",51595
+"va","fairfax",51600
+"va","falls church",51610
+"va","franklin",51620
+"va","fredericksburg",51630
+"va","galax",51640
+"va","hampton",51650
+"va","harrisonburg",51660
+"va","hopewell",51670
+"va","lexington",51678
+"va","lynchburg",51680
+"va","manassas",51683
+"va","manassas park",51685
+"va","martinsville",51690
+"va","newport news",51700
+"va","norfolk",51710
+"va","norton",51720
+"va","petersburg",51730
+"va","poquoson",51735
+"va","portsmouth",51740
+"va","radford",51750
+"va","richmond",51760
+"va","roanoke",51770
+"va","salem",51775
+"va","staunton",51790
+"va","suffolk",51800
+"va","virginia beach",51810
+"va","waynesboro",51820
+"va","williamsburg",51830
+"va","winchester",51840
 "wa","adams",53001
 "wa","asotin",53003
 "wa","benton",53005
