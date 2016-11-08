@@ -1,4 +1,38 @@
 "abbr_state","county","candidate","votes","percent_won","fips"
+"ak","alaska","Other","-","-",NA
+"ak","alaska","Donald Trump","-","-",NA
+"ak","alaska","Gary Johnson","-","-",NA
+"ak","alaska","Hillary Clinton","-","-",NA
+"ak","alaska","Jill Stein","-","-",NA
+"ak","aleutians east borough",NA,NA,NA,2013
+"ak","aleutians west census area",NA,NA,NA,2016
+"ak","anchorage municipality",NA,NA,NA,2020
+"ak","bethel census area",NA,NA,NA,2050
+"ak","bristol bay borough",NA,NA,NA,2060
+"ak","denali borough",NA,NA,NA,2068
+"ak","dillingham census area",NA,NA,NA,2070
+"ak","fairbanks north star borough",NA,NA,NA,2090
+"ak","haines borough",NA,NA,NA,2100
+"ak","hoonah-angoon census area",NA,NA,NA,2105
+"ak","juneau city and borough",NA,NA,NA,2110
+"ak","kenai peninsula borough",NA,NA,NA,2122
+"ak","ketchikan gateway borough",NA,NA,NA,2130
+"ak","kodiak island borough",NA,NA,NA,2150
+"ak","lake and peninsula borough",NA,NA,NA,2164
+"ak","matanuska-susitna borough",NA,NA,NA,2170
+"ak","nome census area",NA,NA,NA,2180
+"ak","north slope borough",NA,NA,NA,2185
+"ak","northwest arctic borough",NA,NA,NA,2188
+"ak","petersburg census area",NA,NA,NA,2195
+"ak","prince of wales-hyder census area",NA,NA,NA,2198
+"ak","sitka city and borough",NA,NA,NA,2220
+"ak","skagway municipality",NA,NA,NA,2230
+"ak","southeast fairbanks census area",NA,NA,NA,2240
+"ak","valdez-cordova census area",NA,NA,NA,2261
+"ak","wade hampton census area",NA,NA,NA,2270
+"ak","wrangell city and borough",NA,NA,NA,2275
+"ak","yakutat city and borough",NA,NA,NA,2282
+"ak","yukon-koyukuk census area",NA,NA,NA,2290
 "al","autauga","Hillary Clinton","-","-",1001
 "al","autauga","Gary Johnson","-","-",1001
 "al","autauga","Donald Trump","-","-",1001
@@ -642,6 +676,11 @@
 "ar","yell","Hillary Clinton","-","-",5149
 "ar","yell","Jill Stein","-","-",5149
 "ar","yell","Other","-","-",5149
+"as","eastern district",NA,NA,NA,60010
+"as","manu'a district",NA,NA,NA,60020
+"as","rose island",NA,NA,NA,60030
+"as","swains island",NA,NA,NA,60040
+"as","western district",NA,NA,NA,60050
 "az","apache","Donald Trump","-","-",4001
 "az","apache","Jill Stein","-","-",4001
 "az","apache","Hillary Clinton","-","-",4001
@@ -1408,6 +1447,11 @@
 "ct","windham","Donald Trump","-","-",9015
 "ct","windham","Hillary Clinton","-","-",9015
 "ct","windham","Jill Stein","-","-",9015
+"dc","district of columbia",NA,NA,NA,11001
+"dc","washington","Donald Trump","-","-",NA
+"dc","washington","Gary Johnson","-","-",NA
+"dc","washington","Hillary Clinton","-","-",NA
+"dc","washington","Jill Stein","-","-",NA
 "de","kent","Gary Johnson","-","-",10001
 "de","kent","Hillary Clinton","-","-",10001
 "de","kent","Donald Trump","-","-",10001
@@ -2232,6 +2276,7 @@
 "ga","worth","Hillary Clinton","-","-",13321
 "ga","worth","Donald Trump","-","-",13321
 "ga","worth","Gary Johnson","-","-",13321
+"gu","guam",NA,NA,NA,66010
 "hi","hawaii","Other","-","-",15001
 "hi","hawaii","Jill Stein","-","-",15001
 "hi","hawaii","Gary Johnson","-","-",15001
@@ -2242,6 +2287,7 @@
 "hi","honolulu","Donald Trump","-","-",15003
 "hi","honolulu","Other","-","-",15003
 "hi","honolulu","Gary Johnson","-","-",15003
+"hi","kalawao",NA,NA,NA,15005
 "hi","kauai","Gary Johnson","-","-",15007
 "hi","kauai","Hillary Clinton","-","-",15007
 "hi","kauai","Other","-","-",15007
@@ -3302,10 +3348,15 @@
 "il","knox","Donald Trump","-","-",17095
 "il","knox","Hillary Clinton","-","-",17095
 "il","knox","Jill Stein","-","-",17095
+"il","la salle","Jill Stein","-","-",NA
+"il","la salle","Gary Johnson","-","-",NA
+"il","la salle","Hillary Clinton","-","-",NA
+"il","la salle","Donald Trump","-","-",NA
 "il","lake","Jill Stein","-","-",17097
 "il","lake","Donald Trump","-","-",17097
 "il","lake","Gary Johnson","-","-",17097
 "il","lake","Hillary Clinton","-","-",17097
+"il","lasalle",NA,NA,NA,17099
 "il","lawrence","Jill Stein","-","-",17101
 "il","lawrence","Hillary Clinton","-","-",17101
 "il","lawrence","Donald Trump","-","-",17101
@@ -4810,6 +4861,454 @@
 "ky","woodford","Hillary Clinton","-","-",21239
 "ky","woodford","Donald Trump","-","-",21239
 "ky","woodford","Jill Stein","-","-",21239
+"la","acadia","Other","-","-",NA
+"la","acadia","Donald Trump","-","-",NA
+"la","acadia","Evan McMullin","-","-",NA
+"la","acadia","Gary Johnson","-","-",NA
+"la","acadia","Hillary Clinton","-","-",NA
+"la","acadia","Jill Stein","-","-",NA
+"la","acadia parish",NA,NA,NA,22001
+"la","allen","Jill Stein","-","-",NA
+"la","allen","Hillary Clinton","-","-",NA
+"la","allen","Gary Johnson","-","-",NA
+"la","allen","Evan McMullin","-","-",NA
+"la","allen","Donald Trump","-","-",NA
+"la","allen","Other","-","-",NA
+"la","allen parish",NA,NA,NA,22003
+"la","ascension","Other","-","-",NA
+"la","ascension","Donald Trump","-","-",NA
+"la","ascension","Evan McMullin","-","-",NA
+"la","ascension","Gary Johnson","-","-",NA
+"la","ascension","Hillary Clinton","-","-",NA
+"la","ascension","Jill Stein","-","-",NA
+"la","ascension parish",NA,NA,NA,22005
+"la","assumption","Evan McMullin","-","-",NA
+"la","assumption","Donald Trump","-","-",NA
+"la","assumption","Other","-","-",NA
+"la","assumption","Jill Stein","-","-",NA
+"la","assumption","Hillary Clinton","-","-",NA
+"la","assumption","Gary Johnson","-","-",NA
+"la","assumption parish",NA,NA,NA,22007
+"la","avoyelles","Other","-","-",NA
+"la","avoyelles","Donald Trump","-","-",NA
+"la","avoyelles","Evan McMullin","-","-",NA
+"la","avoyelles","Gary Johnson","-","-",NA
+"la","avoyelles","Hillary Clinton","-","-",NA
+"la","avoyelles","Jill Stein","-","-",NA
+"la","avoyelles parish",NA,NA,NA,22009
+"la","beauregard","Jill Stein","-","-",NA
+"la","beauregard","Hillary Clinton","-","-",NA
+"la","beauregard","Gary Johnson","-","-",NA
+"la","beauregard","Evan McMullin","-","-",NA
+"la","beauregard","Donald Trump","-","-",NA
+"la","beauregard","Other","-","-",NA
+"la","beauregard parish",NA,NA,NA,22011
+"la","bienville","Other","-","-",NA
+"la","bienville","Donald Trump","-","-",NA
+"la","bienville","Evan McMullin","-","-",NA
+"la","bienville","Gary Johnson","-","-",NA
+"la","bienville","Hillary Clinton","-","-",NA
+"la","bienville","Jill Stein","-","-",NA
+"la","bienville parish",NA,NA,NA,22013
+"la","bossier","Jill Stein","-","-",NA
+"la","bossier","Hillary Clinton","-","-",NA
+"la","bossier","Gary Johnson","-","-",NA
+"la","bossier","Evan McMullin","-","-",NA
+"la","bossier","Donald Trump","-","-",NA
+"la","bossier","Other","-","-",NA
+"la","bossier parish",NA,NA,NA,22015
+"la","caddo","Other","-","-",NA
+"la","caddo","Donald Trump","-","-",NA
+"la","caddo","Evan McMullin","-","-",NA
+"la","caddo","Gary Johnson","-","-",NA
+"la","caddo","Hillary Clinton","-","-",NA
+"la","caddo","Jill Stein","-","-",NA
+"la","caddo parish",NA,NA,NA,22017
+"la","calcasieu","Jill Stein","-","-",NA
+"la","calcasieu","Hillary Clinton","-","-",NA
+"la","calcasieu","Gary Johnson","-","-",NA
+"la","calcasieu","Evan McMullin","-","-",NA
+"la","calcasieu","Donald Trump","-","-",NA
+"la","calcasieu","Other","-","-",NA
+"la","calcasieu parish",NA,NA,NA,22019
+"la","caldwell","Other","-","-",NA
+"la","caldwell","Donald Trump","-","-",NA
+"la","caldwell","Evan McMullin","-","-",NA
+"la","caldwell","Gary Johnson","-","-",NA
+"la","caldwell","Hillary Clinton","-","-",NA
+"la","caldwell","Jill Stein","-","-",NA
+"la","caldwell parish",NA,NA,NA,22021
+"la","cameron","Jill Stein","-","-",NA
+"la","cameron","Hillary Clinton","-","-",NA
+"la","cameron","Gary Johnson","-","-",NA
+"la","cameron","Evan McMullin","-","-",NA
+"la","cameron","Donald Trump","-","-",NA
+"la","cameron","Other","-","-",NA
+"la","cameron parish",NA,NA,NA,22023
+"la","catahoula","Other","-","-",NA
+"la","catahoula","Donald Trump","-","-",NA
+"la","catahoula","Evan McMullin","-","-",NA
+"la","catahoula","Gary Johnson","-","-",NA
+"la","catahoula","Hillary Clinton","-","-",NA
+"la","catahoula","Jill Stein","-","-",NA
+"la","catahoula parish",NA,NA,NA,22025
+"la","claiborne","Jill Stein","-","-",NA
+"la","claiborne","Hillary Clinton","-","-",NA
+"la","claiborne","Gary Johnson","-","-",NA
+"la","claiborne","Evan McMullin","-","-",NA
+"la","claiborne","Donald Trump","-","-",NA
+"la","claiborne","Other","-","-",NA
+"la","claiborne parish",NA,NA,NA,22027
+"la","concordia","Other","-","-",NA
+"la","concordia","Donald Trump","-","-",NA
+"la","concordia","Evan McMullin","-","-",NA
+"la","concordia","Gary Johnson","-","-",NA
+"la","concordia","Hillary Clinton","-","-",NA
+"la","concordia","Jill Stein","-","-",NA
+"la","concordia parish",NA,NA,NA,22029
+"la","de soto","Jill Stein","-","-",NA
+"la","de soto","Hillary Clinton","-","-",NA
+"la","de soto","Gary Johnson","-","-",NA
+"la","de soto","Evan McMullin","-","-",NA
+"la","de soto","Donald Trump","-","-",NA
+"la","de soto","Other","-","-",NA
+"la","de soto parish",NA,NA,NA,22031
+"la","east baton rouge","Other","-","-",NA
+"la","east baton rouge","Donald Trump","-","-",NA
+"la","east baton rouge","Evan McMullin","-","-",NA
+"la","east baton rouge","Gary Johnson","-","-",NA
+"la","east baton rouge","Hillary Clinton","-","-",NA
+"la","east baton rouge","Jill Stein","-","-",NA
+"la","east baton rouge parish",NA,NA,NA,22033
+"la","east carroll","Jill Stein","-","-",NA
+"la","east carroll","Hillary Clinton","-","-",NA
+"la","east carroll","Gary Johnson","-","-",NA
+"la","east carroll","Evan McMullin","-","-",NA
+"la","east carroll","Donald Trump","-","-",NA
+"la","east carroll","Other","-","-",NA
+"la","east carroll parish",NA,NA,NA,22035
+"la","east feliciana","Other","-","-",NA
+"la","east feliciana","Donald Trump","-","-",NA
+"la","east feliciana","Evan McMullin","-","-",NA
+"la","east feliciana","Gary Johnson","-","-",NA
+"la","east feliciana","Hillary Clinton","-","-",NA
+"la","east feliciana","Jill Stein","-","-",NA
+"la","east feliciana parish",NA,NA,NA,22037
+"la","evangeline","Jill Stein","-","-",NA
+"la","evangeline","Hillary Clinton","-","-",NA
+"la","evangeline","Gary Johnson","-","-",NA
+"la","evangeline","Evan McMullin","-","-",NA
+"la","evangeline","Donald Trump","-","-",NA
+"la","evangeline","Other","-","-",NA
+"la","evangeline parish",NA,NA,NA,22039
+"la","franklin","Other","-","-",NA
+"la","franklin","Donald Trump","-","-",NA
+"la","franklin","Evan McMullin","-","-",NA
+"la","franklin","Gary Johnson","-","-",NA
+"la","franklin","Hillary Clinton","-","-",NA
+"la","franklin","Jill Stein","-","-",NA
+"la","franklin parish",NA,NA,NA,22041
+"la","grant","Jill Stein","-","-",NA
+"la","grant","Hillary Clinton","-","-",NA
+"la","grant","Gary Johnson","-","-",NA
+"la","grant","Evan McMullin","-","-",NA
+"la","grant","Donald Trump","-","-",NA
+"la","grant","Other","-","-",NA
+"la","grant parish",NA,NA,NA,22043
+"la","iberia","Other","-","-",NA
+"la","iberia","Donald Trump","-","-",NA
+"la","iberia","Evan McMullin","-","-",NA
+"la","iberia","Gary Johnson","-","-",NA
+"la","iberia","Hillary Clinton","-","-",NA
+"la","iberia","Jill Stein","-","-",NA
+"la","iberia parish",NA,NA,NA,22045
+"la","iberville","Jill Stein","-","-",NA
+"la","iberville","Hillary Clinton","-","-",NA
+"la","iberville","Gary Johnson","-","-",NA
+"la","iberville","Evan McMullin","-","-",NA
+"la","iberville","Donald Trump","-","-",NA
+"la","iberville","Other","-","-",NA
+"la","iberville parish",NA,NA,NA,22047
+"la","jackson","Other","-","-",NA
+"la","jackson","Donald Trump","-","-",NA
+"la","jackson","Evan McMullin","-","-",NA
+"la","jackson","Gary Johnson","-","-",NA
+"la","jackson","Hillary Clinton","-","-",NA
+"la","jackson","Jill Stein","-","-",NA
+"la","jackson parish",NA,NA,NA,22049
+"la","jefferson","Jill Stein","-","-",NA
+"la","jefferson","Hillary Clinton","-","-",NA
+"la","jefferson","Gary Johnson","-","-",NA
+"la","jefferson","Evan McMullin","-","-",NA
+"la","jefferson","Donald Trump","-","-",NA
+"la","jefferson","Other","-","-",NA
+"la","jefferson davis","Other","-","-",NA
+"la","jefferson davis","Donald Trump","-","-",NA
+"la","jefferson davis","Evan McMullin","-","-",NA
+"la","jefferson davis","Gary Johnson","-","-",NA
+"la","jefferson davis","Hillary Clinton","-","-",NA
+"la","jefferson davis","Jill Stein","-","-",NA
+"la","jefferson davis parish",NA,NA,NA,22053
+"la","jefferson parish",NA,NA,NA,22051
+"la","la salle","Hillary Clinton","-","-",NA
+"la","la salle","Gary Johnson","-","-",NA
+"la","la salle","Other","-","-",NA
+"la","la salle","Donald Trump","-","-",NA
+"la","la salle","Evan McMullin","-","-",NA
+"la","la salle","Jill Stein","-","-",NA
+"la","la salle parish",NA,NA,NA,22059
+"la","lafayette","Donald Trump","-","-",NA
+"la","lafayette","Other","-","-",NA
+"la","lafayette","Gary Johnson","-","-",NA
+"la","lafayette","Evan McMullin","-","-",NA
+"la","lafayette","Jill Stein","-","-",NA
+"la","lafayette","Hillary Clinton","-","-",NA
+"la","lafayette parish",NA,NA,NA,22055
+"la","lafourche","Hillary Clinton","-","-",NA
+"la","lafourche","Jill Stein","-","-",NA
+"la","lafourche","Evan McMullin","-","-",NA
+"la","lafourche","Gary Johnson","-","-",NA
+"la","lafourche","Other","-","-",NA
+"la","lafourche","Donald Trump","-","-",NA
+"la","lafourche parish",NA,NA,NA,22057
+"la","lincoln","Other","-","-",NA
+"la","lincoln","Evan McMullin","-","-",NA
+"la","lincoln","Donald Trump","-","-",NA
+"la","lincoln","Gary Johnson","-","-",NA
+"la","lincoln","Hillary Clinton","-","-",NA
+"la","lincoln","Jill Stein","-","-",NA
+"la","lincoln parish",NA,NA,NA,22061
+"la","livingston","Jill Stein","-","-",NA
+"la","livingston","Hillary Clinton","-","-",NA
+"la","livingston","Gary Johnson","-","-",NA
+"la","livingston","Donald Trump","-","-",NA
+"la","livingston","Evan McMullin","-","-",NA
+"la","livingston","Other","-","-",NA
+"la","livingston parish",NA,NA,NA,22063
+"la","madison","Other","-","-",NA
+"la","madison","Evan McMullin","-","-",NA
+"la","madison","Donald Trump","-","-",NA
+"la","madison","Gary Johnson","-","-",NA
+"la","madison","Hillary Clinton","-","-",NA
+"la","madison","Jill Stein","-","-",NA
+"la","madison parish",NA,NA,NA,22065
+"la","morehouse","Jill Stein","-","-",NA
+"la","morehouse","Hillary Clinton","-","-",NA
+"la","morehouse","Gary Johnson","-","-",NA
+"la","morehouse","Donald Trump","-","-",NA
+"la","morehouse","Evan McMullin","-","-",NA
+"la","morehouse","Other","-","-",NA
+"la","morehouse parish",NA,NA,NA,22067
+"la","natchitoches","Other","-","-",NA
+"la","natchitoches","Evan McMullin","-","-",NA
+"la","natchitoches","Donald Trump","-","-",NA
+"la","natchitoches","Gary Johnson","-","-",NA
+"la","natchitoches","Hillary Clinton","-","-",NA
+"la","natchitoches","Jill Stein","-","-",NA
+"la","natchitoches parish",NA,NA,NA,22069
+"la","orleans","Jill Stein","-","-",NA
+"la","orleans","Hillary Clinton","-","-",NA
+"la","orleans","Gary Johnson","-","-",NA
+"la","orleans","Donald Trump","-","-",NA
+"la","orleans","Evan McMullin","-","-",NA
+"la","orleans","Other","-","-",NA
+"la","orleans parish",NA,NA,NA,22071
+"la","ouachita","Hillary Clinton","-","-",NA
+"la","ouachita","Jill Stein","-","-",NA
+"la","ouachita","Gary Johnson","-","-",NA
+"la","ouachita","Donald Trump","-","-",NA
+"la","ouachita","Evan McMullin","-","-",NA
+"la","ouachita","Other","-","-",NA
+"la","ouachita parish",NA,NA,NA,22073
+"la","plaquemines","Jill Stein","-","-",NA
+"la","plaquemines","Hillary Clinton","-","-",NA
+"la","plaquemines","Gary Johnson","-","-",NA
+"la","plaquemines","Donald Trump","-","-",NA
+"la","plaquemines","Evan McMullin","-","-",NA
+"la","plaquemines","Other","-","-",NA
+"la","plaquemines parish",NA,NA,NA,22075
+"la","pointe coupee","Other","-","-",NA
+"la","pointe coupee","Evan McMullin","-","-",NA
+"la","pointe coupee","Donald Trump","-","-",NA
+"la","pointe coupee","Gary Johnson","-","-",NA
+"la","pointe coupee","Hillary Clinton","-","-",NA
+"la","pointe coupee","Jill Stein","-","-",NA
+"la","pointe coupee parish",NA,NA,NA,22077
+"la","rapides","Jill Stein","-","-",NA
+"la","rapides","Hillary Clinton","-","-",NA
+"la","rapides","Gary Johnson","-","-",NA
+"la","rapides","Donald Trump","-","-",NA
+"la","rapides","Evan McMullin","-","-",NA
+"la","rapides","Other","-","-",NA
+"la","rapides parish",NA,NA,NA,22079
+"la","red river","Other","-","-",NA
+"la","red river","Evan McMullin","-","-",NA
+"la","red river","Donald Trump","-","-",NA
+"la","red river","Gary Johnson","-","-",NA
+"la","red river","Hillary Clinton","-","-",NA
+"la","red river","Jill Stein","-","-",NA
+"la","red river parish",NA,NA,NA,22081
+"la","richland","Evan McMullin","-","-",NA
+"la","richland","Other","-","-",NA
+"la","richland","Donald Trump","-","-",NA
+"la","richland","Gary Johnson","-","-",NA
+"la","richland","Hillary Clinton","-","-",NA
+"la","richland","Jill Stein","-","-",NA
+"la","richland parish",NA,NA,NA,22083
+"la","sabine","Other","-","-",NA
+"la","sabine","Evan McMullin","-","-",NA
+"la","sabine","Donald Trump","-","-",NA
+"la","sabine","Gary Johnson","-","-",NA
+"la","sabine","Hillary Clinton","-","-",NA
+"la","sabine","Jill Stein","-","-",NA
+"la","sabine parish",NA,NA,NA,22085
+"la","st. bernard","Jill Stein","-","-",NA
+"la","st. bernard","Hillary Clinton","-","-",NA
+"la","st. bernard","Gary Johnson","-","-",NA
+"la","st. bernard","Donald Trump","-","-",NA
+"la","st. bernard","Evan McMullin","-","-",NA
+"la","st. bernard","Other","-","-",NA
+"la","st. bernard parish",NA,NA,NA,22087
+"la","st. charles","Other","-","-",NA
+"la","st. charles","Evan McMullin","-","-",NA
+"la","st. charles","Donald Trump","-","-",NA
+"la","st. charles","Gary Johnson","-","-",NA
+"la","st. charles","Hillary Clinton","-","-",NA
+"la","st. charles","Jill Stein","-","-",NA
+"la","st. charles parish",NA,NA,NA,22089
+"la","st. helena","Other","-","-",NA
+"la","st. helena","Jill Stein","-","-",NA
+"la","st. helena","Evan McMullin","-","-",NA
+"la","st. helena","Hillary Clinton","-","-",NA
+"la","st. helena","Donald Trump","-","-",NA
+"la","st. helena","Gary Johnson","-","-",NA
+"la","st. helena parish",NA,NA,NA,22091
+"la","st. james","Evan McMullin","-","-",NA
+"la","st. james","Donald Trump","-","-",NA
+"la","st. james","Gary Johnson","-","-",NA
+"la","st. james","Hillary Clinton","-","-",NA
+"la","st. james","Jill Stein","-","-",NA
+"la","st. james","Other","-","-",NA
+"la","st. james parish",NA,NA,NA,22093
+"la","st. john the baptist","Jill Stein","-","-",NA
+"la","st. john the baptist","Hillary Clinton","-","-",NA
+"la","st. john the baptist","Gary Johnson","-","-",NA
+"la","st. john the baptist","Donald Trump","-","-",NA
+"la","st. john the baptist","Evan McMullin","-","-",NA
+"la","st. john the baptist","Other","-","-",NA
+"la","st. john the baptist parish",NA,NA,NA,22095
+"la","st. landry","Other","-","-",NA
+"la","st. landry","Evan McMullin","-","-",NA
+"la","st. landry","Donald Trump","-","-",NA
+"la","st. landry","Gary Johnson","-","-",NA
+"la","st. landry","Hillary Clinton","-","-",NA
+"la","st. landry","Jill Stein","-","-",NA
+"la","st. landry parish",NA,NA,NA,22097
+"la","st. martin","Hillary Clinton","-","-",NA
+"la","st. martin","Gary Johnson","-","-",NA
+"la","st. martin","Donald Trump","-","-",NA
+"la","st. martin","Evan McMullin","-","-",NA
+"la","st. martin","Other","-","-",NA
+"la","st. martin","Jill Stein","-","-",NA
+"la","st. martin parish",NA,NA,NA,22099
+"la","st. mary","Other","-","-",NA
+"la","st. mary","Evan McMullin","-","-",NA
+"la","st. mary","Donald Trump","-","-",NA
+"la","st. mary","Gary Johnson","-","-",NA
+"la","st. mary","Hillary Clinton","-","-",NA
+"la","st. mary","Jill Stein","-","-",NA
+"la","st. mary parish",NA,NA,NA,22101
+"la","st. tammany","Jill Stein","-","-",NA
+"la","st. tammany","Hillary Clinton","-","-",NA
+"la","st. tammany","Gary Johnson","-","-",NA
+"la","st. tammany","Donald Trump","-","-",NA
+"la","st. tammany","Evan McMullin","-","-",NA
+"la","st. tammany","Other","-","-",NA
+"la","st. tammany parish",NA,NA,NA,22103
+"la","tangipahoa","Other","-","-",NA
+"la","tangipahoa","Evan McMullin","-","-",NA
+"la","tangipahoa","Donald Trump","-","-",NA
+"la","tangipahoa","Gary Johnson","-","-",NA
+"la","tangipahoa","Hillary Clinton","-","-",NA
+"la","tangipahoa","Jill Stein","-","-",NA
+"la","tangipahoa parish",NA,NA,NA,22105
+"la","tensas","Jill Stein","-","-",NA
+"la","tensas","Hillary Clinton","-","-",NA
+"la","tensas","Gary Johnson","-","-",NA
+"la","tensas","Donald Trump","-","-",NA
+"la","tensas","Evan McMullin","-","-",NA
+"la","tensas","Other","-","-",NA
+"la","tensas parish",NA,NA,NA,22107
+"la","terrebonne","Other","-","-",NA
+"la","terrebonne","Evan McMullin","-","-",NA
+"la","terrebonne","Donald Trump","-","-",NA
+"la","terrebonne","Gary Johnson","-","-",NA
+"la","terrebonne","Hillary Clinton","-","-",NA
+"la","terrebonne","Jill Stein","-","-",NA
+"la","terrebonne parish",NA,NA,NA,22109
+"la","union","Other","-","-",NA
+"la","union","Jill Stein","-","-",NA
+"la","union","Hillary Clinton","-","-",NA
+"la","union","Gary Johnson","-","-",NA
+"la","union","Donald Trump","-","-",NA
+"la","union","Evan McMullin","-","-",NA
+"la","union parish",NA,NA,NA,22111
+"la","vermilion","Other","-","-",NA
+"la","vermilion","Evan McMullin","-","-",NA
+"la","vermilion","Donald Trump","-","-",NA
+"la","vermilion","Gary Johnson","-","-",NA
+"la","vermilion","Hillary Clinton","-","-",NA
+"la","vermilion","Jill Stein","-","-",NA
+"la","vermilion parish",NA,NA,NA,22113
+"la","vernon","Jill Stein","-","-",NA
+"la","vernon","Hillary Clinton","-","-",NA
+"la","vernon","Gary Johnson","-","-",NA
+"la","vernon","Donald Trump","-","-",NA
+"la","vernon","Evan McMullin","-","-",NA
+"la","vernon","Other","-","-",NA
+"la","vernon parish",NA,NA,NA,22115
+"la","washington","Other","-","-",NA
+"la","washington","Evan McMullin","-","-",NA
+"la","washington","Donald Trump","-","-",NA
+"la","washington","Gary Johnson","-","-",NA
+"la","washington","Hillary Clinton","-","-",NA
+"la","washington","Jill Stein","-","-",NA
+"la","washington parish",NA,NA,NA,22117
+"la","webster","Hillary Clinton","-","-",NA
+"la","webster","Gary Johnson","-","-",NA
+"la","webster","Donald Trump","-","-",NA
+"la","webster","Evan McMullin","-","-",NA
+"la","webster","Other","-","-",NA
+"la","webster","Jill Stein","-","-",NA
+"la","webster parish",NA,NA,NA,22119
+"la","west baton rouge","Other","-","-",NA
+"la","west baton rouge","Evan McMullin","-","-",NA
+"la","west baton rouge","Donald Trump","-","-",NA
+"la","west baton rouge","Gary Johnson","-","-",NA
+"la","west baton rouge","Hillary Clinton","-","-",NA
+"la","west baton rouge","Jill Stein","-","-",NA
+"la","west baton rouge parish",NA,NA,NA,22121
+"la","west carroll","Evan McMullin","-","-",NA
+"la","west carroll","Other","-","-",NA
+"la","west carroll","Gary Johnson","-","-",NA
+"la","west carroll","Donald Trump","-","-",NA
+"la","west carroll","Hillary Clinton","-","-",NA
+"la","west carroll","Jill Stein","-","-",NA
+"la","west carroll parish",NA,NA,NA,22123
+"la","west feliciana","Other","-","-",NA
+"la","west feliciana","Evan McMullin","-","-",NA
+"la","west feliciana","Donald Trump","-","-",NA
+"la","west feliciana","Gary Johnson","-","-",NA
+"la","west feliciana","Jill Stein","-","-",NA
+"la","west feliciana","Hillary Clinton","-","-",NA
+"la","west feliciana parish",NA,NA,NA,22125
+"la","winn","Donald Trump","-","-",NA
+"la","winn","Evan McMullin","-","-",NA
+"la","winn","Hillary Clinton","-","-",NA
+"la","winn","Jill Stein","-","-",NA
+"la","winn","Gary Johnson","-","-",NA
+"la","winn","Other","-","-",NA
+"la","winn parish",NA,NA,NA,22127
 "ma","barnstable","Donald Trump","-","-",25001
 "ma","barnstable","Gary Johnson","-","-",25001
 "ma","barnstable","Jill Stein","-","-",25001
@@ -4874,10 +5373,15 @@
 "md","anne arundel","Donald Trump","-","-",24003
 "md","anne arundel","Hillary Clinton","-","-",24003
 "md","anne arundel","Gary Johnson","-","-",24003
+"md","baltimore",NA,NA,NA,24005
 "md","baltimore city","Gary Johnson","-","-",24510
 "md","baltimore city","Hillary Clinton","-","-",24510
 "md","baltimore city","Donald Trump","-","-",24510
 "md","baltimore city","Jill Stein","-","-",24510
+"md","baltimore county","Jill Stein","-","-",NA
+"md","baltimore county","Donald Trump","-","-",NA
+"md","baltimore county","Gary Johnson","-","-",NA
+"md","baltimore county","Hillary Clinton","-","-",NA
 "md","calvert","Donald Trump","-","-",24009
 "md","calvert","Hillary Clinton","-","-",24009
 "md","calvert","Gary Johnson","-","-",24009
@@ -6414,6 +6918,11 @@
 "mo","ripley","Donald Trump","-","-",29181
 "mo","ripley","Jill Stein","-","-",29181
 "mo","ripley","Hillary Clinton","-","-",29181
+"mo","sainte genevieve","Other","-","-",NA
+"mo","sainte genevieve","Donald Trump","-","-",NA
+"mo","sainte genevieve","Gary Johnson","-","-",NA
+"mo","sainte genevieve","Hillary Clinton","-","-",NA
+"mo","sainte genevieve","Jill Stein","-","-",NA
 "mo","saline","Other","-","-",29195
 "mo","saline","Jill Stein","-","-",29195
 "mo","saline","Donald Trump","-","-",29195
@@ -6464,6 +6973,13 @@
 "mo","st. louis","Donald Trump","-","-",29189
 "mo","st. louis","Gary Johnson","-","-",29189
 "mo","st. louis","Jill Stein","-","-",29189
+"mo","st. louis city",NA,NA,NA,29510
+"mo","st. louis co.","Jill Stein","-","-",NA
+"mo","st. louis co.","Hillary Clinton","-","-",NA
+"mo","st. louis co.","Gary Johnson","-","-",NA
+"mo","st. louis co.","Other","-","-",NA
+"mo","st. louis co.","Donald Trump","-","-",NA
+"mo","ste. genevieve",NA,NA,NA,29186
 "mo","stoddard","Gary Johnson","-","-",29207
 "mo","stoddard","Other","-","-",29207
 "mo","stoddard","Jill Stein","-","-",29207
@@ -6524,6 +7040,10 @@
 "mo","wright","Jill Stein","-","-",29229
 "mo","wright","Gary Johnson","-","-",29229
 "mo","wright","Other","-","-",29229
+"mp","northern islands municipality",NA,NA,NA,69085
+"mp","rota municipality",NA,NA,NA,69100
+"mp","saipan municipality",NA,NA,NA,69110
+"mp","tinian municipality",NA,NA,NA,69120
 "ms","adams","Other","-","-",28001
 "ms","adams","Donald Trump","-","-",28001
 "ms","adams","Hillary Clinton","-","-",28001
@@ -9871,6 +10391,84 @@
 "pa","york","Other","-","-",42133
 "pa","york","Jill Stein","-","-",42133
 "pa","york","Hillary Clinton","-","-",42133
+"pr","adjuntas municipio",NA,NA,NA,72001
+"pr","aguada municipio",NA,NA,NA,72003
+"pr","aguadilla municipio",NA,NA,NA,72005
+"pr","aguas buenas municipio",NA,NA,NA,72007
+"pr","aibonito municipio",NA,NA,NA,72009
+"pr","anasco municipio",NA,NA,NA,72011
+"pr","arecibo municipio",NA,NA,NA,72013
+"pr","arroyo municipio",NA,NA,NA,72015
+"pr","barceloneta municipio",NA,NA,NA,72017
+"pr","barranquitas municipio",NA,NA,NA,72019
+"pr","bayamon municipio",NA,NA,NA,72021
+"pr","cabo rojo municipio",NA,NA,NA,72023
+"pr","caguas municipio",NA,NA,NA,72025
+"pr","camuy municipio",NA,NA,NA,72027
+"pr","canovanas municipio",NA,NA,NA,72029
+"pr","carolina municipio",NA,NA,NA,72031
+"pr","catano municipio",NA,NA,NA,72033
+"pr","cayey municipio",NA,NA,NA,72035
+"pr","ceiba municipio",NA,NA,NA,72037
+"pr","ciales municipio",NA,NA,NA,72039
+"pr","cidra municipio",NA,NA,NA,72041
+"pr","coamo municipio",NA,NA,NA,72043
+"pr","comerio municipio",NA,NA,NA,72045
+"pr","corozal municipio",NA,NA,NA,72047
+"pr","culebra municipio",NA,NA,NA,72049
+"pr","dorado municipio",NA,NA,NA,72051
+"pr","fajardo municipio",NA,NA,NA,72053
+"pr","florida municipio",NA,NA,NA,72054
+"pr","guanica municipio",NA,NA,NA,72055
+"pr","guayama municipio",NA,NA,NA,72057
+"pr","guayanilla municipio",NA,NA,NA,72059
+"pr","guaynabo municipio",NA,NA,NA,72061
+"pr","gurabo municipio",NA,NA,NA,72063
+"pr","hatillo municipio",NA,NA,NA,72065
+"pr","hormigueros municipio",NA,NA,NA,72067
+"pr","humacao municipio",NA,NA,NA,72069
+"pr","isabela municipio",NA,NA,NA,72071
+"pr","jayuya municipio",NA,NA,NA,72073
+"pr","juana diaz municipio",NA,NA,NA,72075
+"pr","juncos municipio",NA,NA,NA,72077
+"pr","lajas municipio",NA,NA,NA,72079
+"pr","lares municipio",NA,NA,NA,72081
+"pr","las marias municipio",NA,NA,NA,72083
+"pr","las piedras municipio",NA,NA,NA,72085
+"pr","loiza municipio",NA,NA,NA,72087
+"pr","luquillo municipio",NA,NA,NA,72089
+"pr","manati municipio",NA,NA,NA,72091
+"pr","maricao municipio",NA,NA,NA,72093
+"pr","maunabo municipio",NA,NA,NA,72095
+"pr","mayaguez municipio",NA,NA,NA,72097
+"pr","moca municipio",NA,NA,NA,72099
+"pr","morovis municipio",NA,NA,NA,72101
+"pr","naguabo municipio",NA,NA,NA,72103
+"pr","naranjito municipio",NA,NA,NA,72105
+"pr","orocovis municipio",NA,NA,NA,72107
+"pr","patillas municipio",NA,NA,NA,72109
+"pr","penuelas municipio",NA,NA,NA,72111
+"pr","ponce municipio",NA,NA,NA,72113
+"pr","quebradillas municipio",NA,NA,NA,72115
+"pr","rincon municipio",NA,NA,NA,72117
+"pr","rio grande municipio",NA,NA,NA,72119
+"pr","sabana grande municipio",NA,NA,NA,72121
+"pr","salinas municipio",NA,NA,NA,72123
+"pr","san german municipio",NA,NA,NA,72125
+"pr","san juan municipio",NA,NA,NA,72127
+"pr","san lorenzo municipio",NA,NA,NA,72129
+"pr","san sebastian municipio",NA,NA,NA,72131
+"pr","santa isabel municipio",NA,NA,NA,72133
+"pr","toa alta municipio",NA,NA,NA,72135
+"pr","toa baja municipio",NA,NA,NA,72137
+"pr","trujillo alto municipio",NA,NA,NA,72139
+"pr","utuado municipio",NA,NA,NA,72141
+"pr","vega alta municipio",NA,NA,NA,72143
+"pr","vega baja municipio",NA,NA,NA,72145
+"pr","vieques municipio",NA,NA,NA,72147
+"pr","villalba municipio",NA,NA,NA,72149
+"pr","yabucoa municipio",NA,NA,NA,72151
+"pr","yauco municipio",NA,NA,NA,72153
 "ri","bristol","Donald Trump","-","-",44001
 "ri","bristol","Jill Stein","-","-",44001
 "ri","bristol","Hillary Clinton","-","-",44001
@@ -10367,6 +10965,10 @@
 "sd","moody","Hillary Clinton","-","-",46101
 "sd","moody","Donald Trump","-","-",46101
 "sd","moody","Gary Johnson","-","-",46101
+"sd","oglala lakota","Hillary Clinton","-","-",NA
+"sd","oglala lakota","Other","-","-",NA
+"sd","oglala lakota","Donald Trump","-","-",NA
+"sd","oglala lakota","Gary Johnson","-","-",NA
 "sd","pennington","Donald Trump","-","-",46103
 "sd","pennington","Hillary Clinton","-","-",46103
 "sd","pennington","Other","-","-",46103
@@ -10387,6 +10989,7 @@
 "sd","sanborn","Hillary Clinton","-","-",46111
 "sd","sanborn","Donald Trump","-","-",46111
 "sd","sanborn","Other","-","-",46111
+"sd","shannon",NA,NA,NA,46113
 "sd","spink","Hillary Clinton","-","-",46115
 "sd","spink","Other","-","-",46115
 "sd","spink","Gary Johnson","-","-",46115
@@ -11918,6 +12521,7 @@
 "tx","zavala","Jill Stein","-","-",48507
 "tx","zavala","Gary Johnson","-","-",48507
 "tx","zavala","Donald Trump","-","-",48507
+"um","midway islands",NA,NA,NA,74300
 "ut","beaver","Hillary Clinton","-","-",49001
 "ut","beaver","Gary Johnson","-","-",49001
 "ut","beaver","Other","-","-",49001
@@ -12102,6 +12706,12 @@
 "va","albemarle","Evan McMullin","-","-",51003
 "va","albemarle","Hillary Clinton","-","-",51003
 "va","albemarle","Donald Trump","-","-",51003
+"va","alexandria","Donald Trump","-","-",NA
+"va","alexandria","Evan McMullin","-","-",NA
+"va","alexandria","Gary Johnson","-","-",NA
+"va","alexandria","Hillary Clinton","-","-",NA
+"va","alexandria","Jill Stein","-","-",NA
+"va","alexandria city",NA,NA,NA,51510
 "va","alleghany","Donald Trump","-","-",51005
 "va","alleghany","Jill Stein","-","-",51005
 "va","alleghany","Gary Johnson","-","-",51005
@@ -12137,6 +12747,13 @@
 "va","bath","Evan McMullin","-","-",51017
 "va","bath","Donald Trump","-","-",51017
 "va","bath","Jill Stein","-","-",51017
+"va","bedford",NA,NA,NA,51019
+"va","bedford city",NA,NA,NA,51515
+"va","bedford co.","Evan McMullin","-","-",NA
+"va","bedford co.","Donald Trump","-","-",NA
+"va","bedford co.","Gary Johnson","-","-",NA
+"va","bedford co.","Hillary Clinton","-","-",NA
+"va","bedford co.","Jill Stein","-","-",NA
 "va","bland","Evan McMullin","-","-",51021
 "va","bland","Gary Johnson","-","-",51021
 "va","bland","Jill Stein","-","-",51021
@@ -12147,6 +12764,12 @@
 "va","botetourt","Jill Stein","-","-",51023
 "va","botetourt","Gary Johnson","-","-",51023
 "va","botetourt","Hillary Clinton","-","-",51023
+"va","bristol","Jill Stein","-","-",NA
+"va","bristol","Hillary Clinton","-","-",NA
+"va","bristol","Gary Johnson","-","-",NA
+"va","bristol","Evan McMullin","-","-",NA
+"va","bristol","Donald Trump","-","-",NA
+"va","bristol city",NA,NA,NA,51520
 "va","brunswick","Donald Trump","-","-",51025
 "va","brunswick","Hillary Clinton","-","-",51025
 "va","brunswick","Gary Johnson","-","-",51025
@@ -12162,6 +12785,12 @@
 "va","buckingham","Donald Trump","-","-",51029
 "va","buckingham","Jill Stein","-","-",51029
 "va","buckingham","Evan McMullin","-","-",51029
+"va","buena vista","Jill Stein","-","-",NA
+"va","buena vista","Gary Johnson","-","-",NA
+"va","buena vista","Hillary Clinton","-","-",NA
+"va","buena vista","Donald Trump","-","-",NA
+"va","buena vista","Evan McMullin","-","-",NA
+"va","buena vista city",NA,NA,NA,51530
 "va","campbell","Donald Trump","-","-",51031
 "va","campbell","Hillary Clinton","-","-",51031
 "va","campbell","Gary Johnson","-","-",51031
@@ -12187,6 +12816,18 @@
 "va","charlotte","Gary Johnson","-","-",51037
 "va","charlotte","Jill Stein","-","-",51037
 "va","charlotte","Hillary Clinton","-","-",51037
+"va","charlottesville","Donald Trump","-","-",NA
+"va","charlottesville","Gary Johnson","-","-",NA
+"va","charlottesville","Jill Stein","-","-",NA
+"va","charlottesville","Evan McMullin","-","-",NA
+"va","charlottesville","Hillary Clinton","-","-",NA
+"va","charlottesville city",NA,NA,NA,51540
+"va","chesapeake","Donald Trump","-","-",NA
+"va","chesapeake","Hillary Clinton","-","-",NA
+"va","chesapeake","Evan McMullin","-","-",NA
+"va","chesapeake","Gary Johnson","-","-",NA
+"va","chesapeake","Jill Stein","-","-",NA
+"va","chesapeake city",NA,NA,NA,51550
 "va","chesterfield","Gary Johnson","-","-",51041
 "va","chesterfield","Jill Stein","-","-",51041
 "va","chesterfield","Evan McMullin","-","-",51041
@@ -12197,6 +12838,18 @@
 "va","clarke","Evan McMullin","-","-",51043
 "va","clarke","Hillary Clinton","-","-",51043
 "va","clarke","Gary Johnson","-","-",51043
+"va","colonial heights","Donald Trump","-","-",NA
+"va","colonial heights","Jill Stein","-","-",NA
+"va","colonial heights","Hillary Clinton","-","-",NA
+"va","colonial heights","Evan McMullin","-","-",NA
+"va","colonial heights","Gary Johnson","-","-",NA
+"va","colonial heights city",NA,NA,NA,51570
+"va","covington","Jill Stein","-","-",NA
+"va","covington","Donald Trump","-","-",NA
+"va","covington","Evan McMullin","-","-",NA
+"va","covington","Gary Johnson","-","-",NA
+"va","covington","Hillary Clinton","-","-",NA
+"va","covington city",NA,NA,NA,51580
 "va","craig","Hillary Clinton","-","-",51045
 "va","craig","Gary Johnson","-","-",51045
 "va","craig","Donald Trump","-","-",51045
@@ -12212,6 +12865,12 @@
 "va","cumberland","Donald Trump","-","-",51049
 "va","cumberland","Evan McMullin","-","-",51049
 "va","cumberland","Hillary Clinton","-","-",51049
+"va","danville","Jill Stein","-","-",NA
+"va","danville","Gary Johnson","-","-",NA
+"va","danville","Hillary Clinton","-","-",NA
+"va","danville","Donald Trump","-","-",NA
+"va","danville","Evan McMullin","-","-",NA
+"va","danville city",NA,NA,NA,51590
 "va","dickenson","Gary Johnson","-","-",51051
 "va","dickenson","Evan McMullin","-","-",51051
 "va","dickenson","Donald Trump","-","-",51051
@@ -12222,6 +12881,12 @@
 "va","dinwiddie","Donald Trump","-","-",51053
 "va","dinwiddie","Jill Stein","-","-",51053
 "va","dinwiddie","Gary Johnson","-","-",51053
+"va","emporia","Jill Stein","-","-",NA
+"va","emporia","Gary Johnson","-","-",NA
+"va","emporia","Hillary Clinton","-","-",NA
+"va","emporia","Donald Trump","-","-",NA
+"va","emporia","Evan McMullin","-","-",NA
+"va","emporia city",NA,NA,NA,51595
 "va","essex","Gary Johnson","-","-",51057
 "va","essex","Evan McMullin","-","-",51057
 "va","essex","Donald Trump","-","-",51057
@@ -12232,6 +12897,18 @@
 "va","fairfax","Jill Stein","-","-",51059
 "va","fairfax","Donald Trump","-","-",51059
 "va","fairfax","Evan McMullin","-","-",51059
+"va","fairfax city",NA,NA,NA,51600
+"va","fairfax co.","Hillary Clinton","-","-",NA
+"va","fairfax co.","Jill Stein","-","-",NA
+"va","fairfax co.","Donald Trump","-","-",NA
+"va","fairfax co.","Evan McMullin","-","-",NA
+"va","fairfax co.","Gary Johnson","-","-",NA
+"va","falls church","Jill Stein","-","-",NA
+"va","falls church","Gary Johnson","-","-",NA
+"va","falls church","Hillary Clinton","-","-",NA
+"va","falls church","Donald Trump","-","-",NA
+"va","falls church","Evan McMullin","-","-",NA
+"va","falls church city",NA,NA,NA,51610
 "va","fauquier","Jill Stein","-","-",51061
 "va","fauquier","Gary Johnson","-","-",51061
 "va","fauquier","Donald Trump","-","-",51061
@@ -12252,11 +12929,29 @@
 "va","franklin","Donald Trump","-","-",51067
 "va","franklin","Gary Johnson","-","-",51067
 "va","franklin","Hillary Clinton","-","-",51067
+"va","franklin city",NA,NA,NA,51620
+"va","franklin co.","Gary Johnson","-","-",NA
+"va","franklin co.","Donald Trump","-","-",NA
+"va","franklin co.","Evan McMullin","-","-",NA
+"va","franklin co.","Jill Stein","-","-",NA
+"va","franklin co.","Hillary Clinton","-","-",NA
 "va","frederick","Hillary Clinton","-","-",51069
 "va","frederick","Jill Stein","-","-",51069
 "va","frederick","Evan McMullin","-","-",51069
 "va","frederick","Donald Trump","-","-",51069
 "va","frederick","Gary Johnson","-","-",51069
+"va","fredericksburg","Hillary Clinton","-","-",NA
+"va","fredericksburg","Jill Stein","-","-",NA
+"va","fredericksburg","Evan McMullin","-","-",NA
+"va","fredericksburg","Donald Trump","-","-",NA
+"va","fredericksburg","Gary Johnson","-","-",NA
+"va","fredericksburg city",NA,NA,NA,51630
+"va","galax","Jill Stein","-","-",NA
+"va","galax","Hillary Clinton","-","-",NA
+"va","galax","Gary Johnson","-","-",NA
+"va","galax","Evan McMullin","-","-",NA
+"va","galax","Donald Trump","-","-",NA
+"va","galax city",NA,NA,NA,51640
 "va","giles","Hillary Clinton","-","-",51071
 "va","giles","Jill Stein","-","-",51071
 "va","giles","Evan McMullin","-","-",51071
@@ -12292,11 +12987,23 @@
 "va","halifax","Donald Trump","-","-",51083
 "va","halifax","Jill Stein","-","-",51083
 "va","halifax","Evan McMullin","-","-",51083
+"va","hampton","Evan McMullin","-","-",NA
+"va","hampton","Hillary Clinton","-","-",NA
+"va","hampton","Donald Trump","-","-",NA
+"va","hampton","Gary Johnson","-","-",NA
+"va","hampton","Jill Stein","-","-",NA
+"va","hampton city",NA,NA,NA,51650
 "va","hanover","Jill Stein","-","-",51085
 "va","hanover","Hillary Clinton","-","-",51085
 "va","hanover","Donald Trump","-","-",51085
 "va","hanover","Evan McMullin","-","-",51085
 "va","hanover","Gary Johnson","-","-",51085
+"va","harrisonburg","Gary Johnson","-","-",NA
+"va","harrisonburg","Jill Stein","-","-",NA
+"va","harrisonburg","Hillary Clinton","-","-",NA
+"va","harrisonburg","Evan McMullin","-","-",NA
+"va","harrisonburg","Donald Trump","-","-",NA
+"va","harrisonburg city",NA,NA,NA,51660
 "va","henrico","Evan McMullin","-","-",51087
 "va","henrico","Gary Johnson","-","-",51087
 "va","henrico","Donald Trump","-","-",51087
@@ -12312,6 +13019,12 @@
 "va","highland","Gary Johnson","-","-",51091
 "va","highland","Donald Trump","-","-",51091
 "va","highland","Hillary Clinton","-","-",51091
+"va","hopewell","Jill Stein","-","-",NA
+"va","hopewell","Gary Johnson","-","-",NA
+"va","hopewell","Hillary Clinton","-","-",NA
+"va","hopewell","Donald Trump","-","-",NA
+"va","hopewell","Evan McMullin","-","-",NA
+"va","hopewell city",NA,NA,NA,51670
 "va","isle of wight","Hillary Clinton","-","-",51093
 "va","isle of wight","Jill Stein","-","-",51093
 "va","isle of wight","Evan McMullin","-","-",51093
@@ -12347,6 +13060,12 @@
 "va","lee","Donald Trump","-","-",51105
 "va","lee","Evan McMullin","-","-",51105
 "va","lee","Gary Johnson","-","-",51105
+"va","lexington","Jill Stein","-","-",NA
+"va","lexington","Hillary Clinton","-","-",NA
+"va","lexington","Gary Johnson","-","-",NA
+"va","lexington","Evan McMullin","-","-",NA
+"va","lexington","Donald Trump","-","-",NA
+"va","lexington city",NA,NA,NA,51678
 "va","loudoun","Jill Stein","-","-",51107
 "va","loudoun","Hillary Clinton","-","-",51107
 "va","loudoun","Evan McMullin","-","-",51107
@@ -12362,11 +13081,35 @@
 "va","lunenburg","Hillary Clinton","-","-",51111
 "va","lunenburg","Donald Trump","-","-",51111
 "va","lunenburg","Evan McMullin","-","-",51111
+"va","lynchburg","Donald Trump","-","-",NA
+"va","lynchburg","Jill Stein","-","-",NA
+"va","lynchburg","Gary Johnson","-","-",NA
+"va","lynchburg","Hillary Clinton","-","-",NA
+"va","lynchburg","Evan McMullin","-","-",NA
+"va","lynchburg city",NA,NA,NA,51680
 "va","madison","Donald Trump","-","-",51113
 "va","madison","Jill Stein","-","-",51113
 "va","madison","Evan McMullin","-","-",51113
 "va","madison","Gary Johnson","-","-",51113
 "va","madison","Hillary Clinton","-","-",51113
+"va","manassas","Jill Stein","-","-",NA
+"va","manassas","Hillary Clinton","-","-",NA
+"va","manassas","Gary Johnson","-","-",NA
+"va","manassas","Evan McMullin","-","-",NA
+"va","manassas","Donald Trump","-","-",NA
+"va","manassas city",NA,NA,NA,51683
+"va","manassas park","Donald Trump","-","-",NA
+"va","manassas park","Evan McMullin","-","-",NA
+"va","manassas park","Gary Johnson","-","-",NA
+"va","manassas park","Hillary Clinton","-","-",NA
+"va","manassas park","Jill Stein","-","-",NA
+"va","manassas park city",NA,NA,NA,51685
+"va","martinsville","Jill Stein","-","-",NA
+"va","martinsville","Hillary Clinton","-","-",NA
+"va","martinsville","Evan McMullin","-","-",NA
+"va","martinsville","Donald Trump","-","-",NA
+"va","martinsville","Gary Johnson","-","-",NA
+"va","martinsville city",NA,NA,NA,51690
 "va","mathews","Donald Trump","-","-",51115
 "va","mathews","Gary Johnson","-","-",51115
 "va","mathews","Evan McMullin","-","-",51115
@@ -12397,6 +13140,18 @@
 "va","new kent","Gary Johnson","-","-",51127
 "va","new kent","Hillary Clinton","-","-",51127
 "va","new kent","Jill Stein","-","-",51127
+"va","newport news","Hillary Clinton","-","-",NA
+"va","newport news","Jill Stein","-","-",NA
+"va","newport news","Donald Trump","-","-",NA
+"va","newport news","Evan McMullin","-","-",NA
+"va","newport news","Gary Johnson","-","-",NA
+"va","newport news city",NA,NA,NA,51700
+"va","norfolk","Jill Stein","-","-",NA
+"va","norfolk","Gary Johnson","-","-",NA
+"va","norfolk","Evan McMullin","-","-",NA
+"va","norfolk","Hillary Clinton","-","-",NA
+"va","norfolk","Donald Trump","-","-",NA
+"va","norfolk city",NA,NA,NA,51710
 "va","northampton","Jill Stein","-","-",51131
 "va","northampton","Evan McMullin","-","-",51131
 "va","northampton","Hillary Clinton","-","-",51131
@@ -12407,6 +13162,12 @@
 "va","northumberland","Jill Stein","-","-",51133
 "va","northumberland","Hillary Clinton","-","-",51133
 "va","northumberland","Gary Johnson","-","-",51133
+"va","norton","Hillary Clinton","-","-",NA
+"va","norton","Donald Trump","-","-",NA
+"va","norton","Evan McMullin","-","-",NA
+"va","norton","Gary Johnson","-","-",NA
+"va","norton","Jill Stein","-","-",NA
+"va","norton city",NA,NA,NA,51720
 "va","nottoway","Evan McMullin","-","-",51135
 "va","nottoway","Donald Trump","-","-",51135
 "va","nottoway","Hillary Clinton","-","-",51135
@@ -12427,11 +13188,29 @@
 "va","patrick","Gary Johnson","-","-",51141
 "va","patrick","Hillary Clinton","-","-",51141
 "va","patrick","Evan McMullin","-","-",51141
+"va","petersburg","Jill Stein","-","-",NA
+"va","petersburg","Hillary Clinton","-","-",NA
+"va","petersburg","Evan McMullin","-","-",NA
+"va","petersburg","Donald Trump","-","-",NA
+"va","petersburg","Gary Johnson","-","-",NA
+"va","petersburg city",NA,NA,NA,51730
 "va","pittsylvania","Hillary Clinton","-","-",51143
 "va","pittsylvania","Gary Johnson","-","-",51143
 "va","pittsylvania","Jill Stein","-","-",51143
 "va","pittsylvania","Evan McMullin","-","-",51143
 "va","pittsylvania","Donald Trump","-","-",51143
+"va","poquoson","Hillary Clinton","-","-",NA
+"va","poquoson","Donald Trump","-","-",NA
+"va","poquoson","Evan McMullin","-","-",NA
+"va","poquoson","Gary Johnson","-","-",NA
+"va","poquoson","Jill Stein","-","-",NA
+"va","poquoson city",NA,NA,NA,51735
+"va","portsmouth","Jill Stein","-","-",NA
+"va","portsmouth","Gary Johnson","-","-",NA
+"va","portsmouth","Hillary Clinton","-","-",NA
+"va","portsmouth","Donald Trump","-","-",NA
+"va","portsmouth","Evan McMullin","-","-",NA
+"va","portsmouth city",NA,NA,NA,51740
 "va","powhatan","Evan McMullin","-","-",51145
 "va","powhatan","Jill Stein","-","-",51145
 "va","powhatan","Donald Trump","-","-",51145
@@ -12457,6 +13236,12 @@
 "va","pulaski","Donald Trump","-","-",51155
 "va","pulaski","Evan McMullin","-","-",51155
 "va","pulaski","Jill Stein","-","-",51155
+"va","radford","Hillary Clinton","-","-",NA
+"va","radford","Donald Trump","-","-",NA
+"va","radford","Jill Stein","-","-",NA
+"va","radford","Evan McMullin","-","-",NA
+"va","radford","Gary Johnson","-","-",NA
+"va","radford city",NA,NA,NA,51750
 "va","rappahannock","Hillary Clinton","-","-",51157
 "va","rappahannock","Jill Stein","-","-",51157
 "va","rappahannock","Gary Johnson","-","-",51157
@@ -12467,11 +13252,23 @@
 "va","richmond","Hillary Clinton","-","-",51159
 "va","richmond","Gary Johnson","-","-",51159
 "va","richmond","Jill Stein","-","-",51159
+"va","richmond city",NA,NA,NA,51760
+"va","richmond co.","Hillary Clinton","-","-",NA
+"va","richmond co.","Evan McMullin","-","-",NA
+"va","richmond co.","Donald Trump","-","-",NA
+"va","richmond co.","Gary Johnson","-","-",NA
+"va","richmond co.","Jill Stein","-","-",NA
 "va","roanoke","Evan McMullin","-","-",51161
 "va","roanoke","Donald Trump","-","-",51161
 "va","roanoke","Jill Stein","-","-",51161
 "va","roanoke","Gary Johnson","-","-",51161
 "va","roanoke","Hillary Clinton","-","-",51161
+"va","roanoke city",NA,NA,NA,51770
+"va","roanoke co.","Jill Stein","-","-",NA
+"va","roanoke co.","Hillary Clinton","-","-",NA
+"va","roanoke co.","Gary Johnson","-","-",NA
+"va","roanoke co.","Donald Trump","-","-",NA
+"va","roanoke co.","Evan McMullin","-","-",NA
 "va","rockbridge","Gary Johnson","-","-",51163
 "va","rockbridge","Donald Trump","-","-",51163
 "va","rockbridge","Jill Stein","-","-",51163
@@ -12487,6 +13284,12 @@
 "va","russell","Jill Stein","-","-",51167
 "va","russell","Evan McMullin","-","-",51167
 "va","russell","Donald Trump","-","-",51167
+"va","salem","Jill Stein","-","-",NA
+"va","salem","Hillary Clinton","-","-",NA
+"va","salem","Gary Johnson","-","-",NA
+"va","salem","Evan McMullin","-","-",NA
+"va","salem","Donald Trump","-","-",NA
+"va","salem city",NA,NA,NA,51775
 "va","scott","Gary Johnson","-","-",51169
 "va","scott","Hillary Clinton","-","-",51169
 "va","scott","Donald Trump","-","-",51169
@@ -12517,6 +13320,18 @@
 "va","stafford","Donald Trump","-","-",51179
 "va","stafford","Gary Johnson","-","-",51179
 "va","stafford","Evan McMullin","-","-",51179
+"va","staunton","Donald Trump","-","-",NA
+"va","staunton","Evan McMullin","-","-",NA
+"va","staunton","Gary Johnson","-","-",NA
+"va","staunton","Hillary Clinton","-","-",NA
+"va","staunton","Jill Stein","-","-",NA
+"va","staunton city",NA,NA,NA,51790
+"va","suffolk","Jill Stein","-","-",NA
+"va","suffolk","Hillary Clinton","-","-",NA
+"va","suffolk","Gary Johnson","-","-",NA
+"va","suffolk","Evan McMullin","-","-",NA
+"va","suffolk","Donald Trump","-","-",NA
+"va","suffolk city",NA,NA,NA,51800
 "va","surry","Gary Johnson","-","-",51181
 "va","surry","Evan McMullin","-","-",51181
 "va","surry","Hillary Clinton","-","-",51181
@@ -12532,6 +13347,12 @@
 "va","tazewell","Evan McMullin","-","-",51185
 "va","tazewell","Hillary Clinton","-","-",51185
 "va","tazewell","Jill Stein","-","-",51185
+"va","virginia beach","Jill Stein","-","-",NA
+"va","virginia beach","Gary Johnson","-","-",NA
+"va","virginia beach","Hillary Clinton","-","-",NA
+"va","virginia beach","Donald Trump","-","-",NA
+"va","virginia beach","Evan McMullin","-","-",NA
+"va","virginia beach city",NA,NA,NA,51810
 "va","warren","Gary Johnson","-","-",51187
 "va","warren","Jill Stein","-","-",51187
 "va","warren","Donald Trump","-","-",51187
@@ -12542,11 +13363,29 @@
 "va","washington","Evan McMullin","-","-",51191
 "va","washington","Gary Johnson","-","-",51191
 "va","washington","Donald Trump","-","-",51191
+"va","waynesboro","Evan McMullin","-","-",NA
+"va","waynesboro","Donald Trump","-","-",NA
+"va","waynesboro","Hillary Clinton","-","-",NA
+"va","waynesboro","Gary Johnson","-","-",NA
+"va","waynesboro","Jill Stein","-","-",NA
+"va","waynesboro city",NA,NA,NA,51820
 "va","westmoreland","Gary Johnson","-","-",51193
 "va","westmoreland","Evan McMullin","-","-",51193
 "va","westmoreland","Donald Trump","-","-",51193
 "va","westmoreland","Jill Stein","-","-",51193
 "va","westmoreland","Hillary Clinton","-","-",51193
+"va","williamsburg","Donald Trump","-","-",NA
+"va","williamsburg","Evan McMullin","-","-",NA
+"va","williamsburg","Gary Johnson","-","-",NA
+"va","williamsburg","Hillary Clinton","-","-",NA
+"va","williamsburg","Jill Stein","-","-",NA
+"va","williamsburg city",NA,NA,NA,51830
+"va","winchester","Jill Stein","-","-",NA
+"va","winchester","Hillary Clinton","-","-",NA
+"va","winchester","Gary Johnson","-","-",NA
+"va","winchester","Evan McMullin","-","-",NA
+"va","winchester","Donald Trump","-","-",NA
+"va","winchester city",NA,NA,NA,51840
 "va","wise","Gary Johnson","-","-",51195
 "va","wise","Donald Trump","-","-",51195
 "va","wise","Evan McMullin","-","-",51195
@@ -12562,6 +13401,9 @@
 "va","york","Evan McMullin","-","-",51199
 "va","york","Hillary Clinton","-","-",51199
 "va","york","Jill Stein","-","-",51199
+"vi","st. croix island",NA,NA,NA,78010
+"vi","st. john island",NA,NA,NA,78020
+"vi","st. thomas island",NA,NA,NA,78030
 "vt","addison","Jill Stein","-","-",50001
 "vt","addison","Gary Johnson","-","-",50001
 "vt","addison","Donald Trump","-","-",50001

@@ -25,6 +25,6 @@ results$county <- gsub('[0-9]+', '', results$county) #remove the 0; I'm guessing
 results$county <- gsub('%', '', results$county) #remove the %
 results$county <- tolower(results$county) #lower-case county to match state_county_fips
 
-results <- merge(results, state_county_fips, by = c("abbr_state", "county")) #merge to get fips
+results <- merge(results, state_county_fips, by = c("abbr_state", "county"), all = TRUE) #merge to get fips
 
 write.csv(results, "county_election_results_2016.csv", row.names=FALSE)
