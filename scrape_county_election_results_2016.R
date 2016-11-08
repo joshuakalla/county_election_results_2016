@@ -1,30 +1,54 @@
 rm(list=ls())
 library(htmltab)
-library(plyr)
-setwd("~/Desktop/county_election_results_2016")
+library(dplyr)
 
+# Load Data ----
+
+wd <- '/home/awang/county_election_results_2016/'
 #load county-fips-state file
-state_county_fips <- read.csv('state_county_fips.csv', stringsAsFactors=FALSE)
-
+state_county_fips <- read.csv(
+  file.path(wd, 'state_county_fips.csv'), stringsAsFactors=FALSE)
 #unique state file
-unique_state <- read.csv('unique_state.csv', stringsAsFactors=FALSE)
+unique_state <- read.csv(file.path(wd, 'unique_state.csv'), 
+                         stringsAsFactors=FALSE)
 
-#loop over unique state file
-results <- NA
-for (i in 1:nrow(unique_state)) {
-  url <- paste0("http://townhall.com/election/2016/president/", unique_state[i,1], "/county")
-  state_result <- htmltab(doc = url, which = '//*[@id="election-live"]/table[2]')
-  state_result <- rename(state_result, c("County Results >> County"  = "county", "County Results >> Candidate" = "candidate",
-                   "Votes" = "votes", "% Won" = "percent_won"))
-  state_result$abbr_state <- rep(unique_state[i,1], nrow(state_result))
-  results <- rbind(results, state_result)
+# Scrape ------
+
+grab_data <- function(state){
+  url <- sprintf("http://townhall.com/election/2016/president/%s/county", state)
+  # Try to grab
+  state_result <- try(htmltab::htmltab(
+    doc = url, which = '//*[@id="election-live"]/table[2]'))
+  if('data.frame' %in% class(state_result)){
+    # clean up names
+    state_result <- state_result %>%
+      rename(county = `County Results >> County`,
+             candidate = `County Results >> Candidate`,
+             votes = Votes,
+             percent_won = `% Won`) %>%
+      mutate(abbr_state = state,
+             percent_complete = gsub('[[:alpha:]]|%|[[:blank:]]', '', county),
+             county = gsub('[[:digit:]]|%', '', county))
+      
+  } else {
+    state_result <- data.frame(abbr_state = state, stringsAsFactors = F)
+  }
+  state_result
 }
 
-results <- results[-1,] #remove first NA
-results$county <- gsub('[0-9]+', '', results$county) #remove the 0; I'm guessing this will change to different numbers
-results$county <- gsub('%', '', results$county) #remove the %
-results$county <- tolower(results$county) #lower-case county to match state_county_fips
+#loop over unique state file
+results <- lapply(unique_state$abbr_state, function(i){
+  print(i)
+  grab_data(i)
+})
 
-results <- merge(results, state_county_fips, by = c("abbr_state", "county"), all = TRUE) #merge to get fips
+# Export ---
+z <- dplyr::bind_rows(results)
 
-write.csv(results, "county_election_results_2016.csv", row.names=FALSE)
+# merge to get fips
+res <- aiHelper::merge2(
+  z %>% mutate(county = stringr::str_trim(tolower(county))),
+  state_county_fips %>% mutate(county = stringr::str_trim(county)),
+                 by = c("abbr_state", "county"), all = TRUE)
+
+write.csv(res, "county_election_results_2016.csv", row.names=FALSE)
