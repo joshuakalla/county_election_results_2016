@@ -54,7 +54,7 @@ results <- lapply(unique_state$abbr_state, function(i){
 z <- dplyr::bind_rows(results)
 
 # merge to get fips
-res <- aiHelper::merge2(
+res <- merge(
   z %>% mutate(county = stringr::str_trim(tolower(county))),
   state_county_fips %>% mutate(county = stringr::str_trim(county)),
                  by = c("abbr_state", "county"), all = TRUE)
