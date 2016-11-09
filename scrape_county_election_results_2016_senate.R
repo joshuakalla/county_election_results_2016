@@ -6,7 +6,7 @@ library(dplyr)
 
 # Load Data ----
 
-wd <- '/Users/joshkalla/Desktop/county_election_results_2016'
+wd <- ''
 #load county-fips-state file
 state_county_fips <- read.csv(
   file.path(wd, 'state_county_fips.csv'), stringsAsFactors=FALSE)
