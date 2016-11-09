@@ -87,5 +87,6 @@ res$percent_complete <- as.numeric(res$percent_complete) #this is funky, sorry!
 
 #consolidate republican candidates
 res <- ddply(res, c("abbr_state", "county", "candidate"), numcolwise(sum))
+res$county <- gsub("[.]", "", res$county) #remove period
 
 write.csv(res, "county_election_results_2016_senate.csv", row.names=FALSE)
