@@ -59,6 +59,12 @@ res <- merge(
   state_county_fips %>% mutate(county = stringr::str_trim(county)),
                  by = c("abbr_state", "county"), all = TRUE)
 
+#convert to numeric
+res$votes <- as.numeric(gsub(",", "", res$votes))
+res$percent_won <- as.numeric(sub("%", "", res$percent_won))
+res$percent_complete <- as.numeric(res$percent_complete) #this is funky, sorry!
+
 # View(subset(res, is.na(fips)))
+# View(subset(res, abbr_state == "in"))
 
 write.csv(res, "county_election_results_2016.csv", row.names=FALSE)
