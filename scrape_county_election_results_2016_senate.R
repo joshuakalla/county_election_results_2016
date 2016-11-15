@@ -7,6 +7,8 @@ library(dplyr)
 # Load Data ----
 
 wd <- '.'
+setwd(wd)
+
 #load county-fips-state file
 state_county_fips <- read.csv(
   file.path(wd, 'state_county_fips.csv'), stringsAsFactors=FALSE)
@@ -68,13 +70,17 @@ other.candidate <- c("Aaron Day", "Edward Clifford", "Phil Anderson",
                      "Kenton McMillen", "None of these candidates",
                      "Sean Haugh", "Tom Sawyer", "Jarrod Williams",
                      "Jonathan Dine", "Lucy Brenton", "Tony Gumina",
-                     "Scott Summers", "Tom Jones")
+                     "Scott Summers", "Tom Jones", "Joseph DeMare", "Basil Dalack",
+                     "Scott Rupert", "Bruce Nathan", "Steven Machat",
+                     "Gary Swing", "Paul Stanton", "Tom Connors", "Tony Khoury")
 dem.candidate <- c("Jason Kander", "Katie McGinty", "Maggie Hassan",
                    "Russ Feingold", "Evan Bayh", "Catherine Cortez Masto",
-                   "Deborah Ross", "Tammy Duckworth")
+                   "Deborah Ross", "Tammy Duckworth",
+                   "Ann Kirkpatrick", "Patrick Murphy", "Ted Strickland")
 rep.candidate <- c("Todd Young", "Joe Heck", "Kelly Ayotte",
                    "Mark Kirk", "Richard Burr", "Ron Johnson",
-                   "Pat Toomey", "Roy Blunt")
+                   "Pat Toomey", "Roy Blunt", "Rob Portman", 
+                   "Marco Rubio", "John McCain")
 
 res$candidate[res$candidate %in% other.candidate] <- "other"
 res$candidate[res$candidate %in% dem.candidate] <- "democrat"

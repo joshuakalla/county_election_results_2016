@@ -1,6 +1,8 @@
 rm(list=ls())
 library(htmltab)
+library(plyr)
 library(dplyr)
+
 
 # Load Data ----
 
@@ -10,14 +12,16 @@ setwd(wd)
 #load county-fips-state file
 state_county_fips <- read.csv(
   file.path(wd, 'state_county_fips.csv'), stringsAsFactors=FALSE)
-#unique state file
-unique_state <- read.csv(file.path(wd, 'unique_state.csv'), 
+#unique state file for competitive gov elections
+unique_state <- read.csv(file.path(wd, 'unique_state_governor.csv'), 
                          stringsAsFactors=FALSE)
+#keep only states we care about
+state_county_fips <- subset(state_county_fips, state_county_fips$abbr_state %in% unique_state$abbr_state)
 
 # Scrape ------
 
 grab_data <- function(state){
-  url <- sprintf("http://townhall.com/election/2016/president/%s/county", state)
+  url <- sprintf("http://townhall.com/election/2016/governor/%s/county", state)
   # Try to grab
   state_result <- try(htmltab::htmltab(
     doc = url, which = '//*[@id="election-live"]/table[2]'))
@@ -61,14 +65,25 @@ res <- merge(
   state_county_fips %>% mutate(county = stringr::str_trim(county)),
                  by = c("abbr_state", "county"), all = TRUE)
 
+other.candidate <- c("Lester Turilli", "Lon Cecil",
+                     "Cisse Spragins", "Max Abramson",
+                     "Don Fitz")
+dem.candidate <- c("Chris Koster", "Roy Cooper",
+                   "Colin Van Ostern")
+rep.candidate <- c("Chris Sununu", "Pat McCrory", 
+                   "Eric Greitens")
+
+res$candidate[res$candidate %in% other.candidate] <- "other"
+res$candidate[res$candidate %in% dem.candidate] <- "democrat"
+res$candidate[res$candidate %in% rep.candidate] <- "republican"
+
 #convert to numeric
 res$votes <- as.numeric(gsub(",", "", res$votes))
 res$percent_won <- as.numeric(sub("%", "", res$percent_won))
 res$percent_complete <- as.numeric(res$percent_complete) #this is funky, sorry!
 
-# View(subset(res, is.na(fips)))
-# View(subset(res, abbr_state == "in"))
-
+#consolidate republican candidates
+res <- ddply(res, c("abbr_state", "county", "candidate"), numcolwise(sum))
 res$county <- gsub("[.]", "", res$county) #remove period
 
-write.csv(res, "county_election_results_2016.csv", row.names=FALSE)
+write.csv(res, "county_election_results_2016_governor.csv", row.names=FALSE)
