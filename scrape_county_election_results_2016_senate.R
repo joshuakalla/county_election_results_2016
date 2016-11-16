@@ -76,11 +76,12 @@ other.candidate <- c("Aaron Day", "Edward Clifford", "Phil Anderson",
 dem.candidate <- c("Jason Kander", "Katie McGinty", "Maggie Hassan",
                    "Russ Feingold", "Evan Bayh", "Catherine Cortez Masto",
                    "Deborah Ross", "Tammy Duckworth",
-                   "Ann Kirkpatrick", "Patrick Murphy", "Ted Strickland")
+                   "Ann Kirkpatrick", "Patrick Murphy", "Ted Strickland",
+                   "Jim Gray")
 rep.candidate <- c("Todd Young", "Joe Heck", "Kelly Ayotte",
                    "Mark Kirk", "Richard Burr", "Ron Johnson",
                    "Pat Toomey", "Roy Blunt", "Rob Portman", 
-                   "Marco Rubio", "John McCain")
+                   "Marco Rubio", "John McCain", "Rand Paul")
 
 res$candidate[res$candidate %in% other.candidate] <- "other"
 res$candidate[res$candidate %in% dem.candidate] <- "democrat"
