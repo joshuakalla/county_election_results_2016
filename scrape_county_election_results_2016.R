@@ -56,6 +56,7 @@ results <- lapply(unique_state$abbr_state, function(i){
 z <- dplyr::bind_rows(results)
 
 # merge to get fips
+z$county <- gsub("[.]", "", z$county) #remove period
 res <- merge(
   z %>% mutate(county = stringr::str_trim(tolower(county))),
   state_county_fips %>% mutate(county = stringr::str_trim(county)),
@@ -68,7 +69,5 @@ res$percent_complete <- as.numeric(res$percent_complete) #this is funky, sorry!
 
 # View(subset(res, is.na(fips)))
 # View(subset(res, abbr_state == "in"))
-
-res$county <- gsub("[.]", "", res$county) #remove period
 
 write.csv(res, "county_election_results_2016.csv", row.names=FALSE)
